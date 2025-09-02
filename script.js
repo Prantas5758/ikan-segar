@@ -1,5 +1,5 @@
 
-const WA_NUMBER = '6281234567890'; // Ganti dengan nomor WhatsAppmu tanpa + dan tanpa spasi
+const WA_NUMBER = '6282136867674'; // Ganti dengan nomor WhatsAppmu tanpa + dan tanpa spasi
 
 function formatRupiah(n){
   return new Intl.NumberFormat('id-ID', {style:'currency', currency:'IDR', maximumFractionDigits:0}).format(n);
