@@ -1,0 +1,35 @@
+[
+  {
+    "id": "tuna-fillet",
+    "name": "Tuna Fillet Premium",
+    "price": 85000,
+    "image": "assets/tuna.jpg",
+    "excerpt": "Tuna segar dipotong fillet, cocok untuk steak atau sashimi.",
+    "featured": true,
+    "discount": false,
+    "stock": 12,
+    "description": "<ul><li>Diproses higienis, tanpa pengawet</li><li>Packing vakum</li><li>Estimasi berat: 500g</li></ul>"
+  },
+  {
+    "id": "udang-vannamei",
+    "name": "Udang Vannamei Besar",
+    "price": 65000,
+    "image": "assets/shrimp.jpg",
+    "excerpt": "Udang segar ukuran besar, manis dan renyah.",
+    "featured": false,
+    "discount": true,
+    "stock": 20,
+    "description": "<ul><li>Ukuran 40/50</li><li>Fresh, tidak berbau</li><li>Estimasi berat: 500g</li></ul>"
+  },
+  {
+    "id": "cakalang",
+    "name": "Ikan Cakalang",
+    "price": 40000,
+    "image": "assets/cakalang.jpg",
+    "excerpt": "Cakalang segar harian, cocok digoreng/dipep",
+    "featured": false,
+    "discount": false,
+    "stock": 8,
+    "description": "<ul><li>Dikirim dalam keadaan es</li><li>Estimasi berat: 700-900g</li></ul>"
+  }
+]

@@ -1,0 +1,61 @@
+
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title id="title">Produk – Warung Ikan Segar</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="container nav-inner">
+        <div class="brand">Warung Ikan Segar</div>
+        <div class="menu">
+          <a href="index.html">Beranda</a>
+          <a href="products.html">Produk</a>
+          <a href="https://wa.me/6281234567890" target="_blank" rel="noopener">Kontak</a>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <a class="back" href="javascript:history.back()">&larr; Kembali</a>
+      <div class="detail" id="detail-wrap">
+        <img id="pimg" alt="gambar produk">
+        <div class="kv">
+          <h2 id="pname">Nama Produk</h2>
+          <div class="price mono" id="pprice">Rp 0</div>
+          <p id="pdesc" class="small"></p>
+
+          <form id="order-form" style="margin-top:10px">
+            <div class="form-row">
+              <label>Variasi/Rasa (opsional)</label>
+              <input class="input" name="variant" placeholder="Contoh: Fillet / Utuh">
+            </div>
+            <div class="form-row">
+              <label>Berat (opsional)</label>
+              <input class="input" name="weight" placeholder="Contoh: 500g">
+            </div>
+            <div class="form-row">
+              <label>Catatan (opsional)</label>
+              <input class="input" name="notes" placeholder="Contoh: Bersihkan sisik & isi perut">
+            </div>
+
+            <div class="stock" style="margin:8px 0"><span id="pstock">Cek stok...</span></div>
+            <div class="card-actions">
+              <button class="button primary" type="submit">Beli via WhatsApp</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        © 2025 Warung Ikan Segar.
+      </div>
+    </footer>
+  </body>
+</html>
